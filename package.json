@@ -1,0 +1,17 @@
+{
+  "name": "dragdrop",
+  "version": "1.0.0",
+  "description": "Simple Drag Drop Application",
+  "main": "dragDrop.js",
+  "scripts": {
+    "start": "http-server --cors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-react": "^6.2.0"
+  }
+}

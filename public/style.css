@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+.picBox {
+  display: inline-block;
+  width: 1080px;
+}
+.picBox div{
+  float: right;
+  cursor: move;
+}
+.image {
+  padding: 5px;
+}
